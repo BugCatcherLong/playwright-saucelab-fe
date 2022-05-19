@@ -1,0 +1,19 @@
+{
+  "name": "playwright-template",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prep": "yarn install && yarn build",
+    "test:e2e": "playwright test"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@playwright/test": "*",
+    "@types/node": "^17.0.18",
+    "playwright": "*",
+    "typescript": "^4.5.5",
+    "typescript-logging": "^2.0.0"
+  }
+}
